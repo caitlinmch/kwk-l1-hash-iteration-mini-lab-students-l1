@@ -21,6 +21,12 @@ end
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
+    olympic_hash={
+    "Sydney"=>"2000",
+    "Athens"=>"2004",
+    "Bejing"=>"2008",
+    "london"=>"2012"
+  }
   olympic_hash.each do |cities, years|
     puts "The#{years} summer olympics took place in#{cities}"
     puts ""
