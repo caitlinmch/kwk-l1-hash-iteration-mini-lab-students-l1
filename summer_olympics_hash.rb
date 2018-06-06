@@ -5,6 +5,7 @@ def create_olympics_hash
 end
 
 def add_a_key_value_pair
+  
   olympic_hash={
     "Sydney"=>"2000",
     "Athens"=>"2004",
@@ -12,7 +13,7 @@ def add_a_key_value_pair
     "london"=>"2012"
     
   }
- olympic_hash
+ olympic_hash.each do 
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
 
