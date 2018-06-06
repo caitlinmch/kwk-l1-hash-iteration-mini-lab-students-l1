@@ -15,3 +15,10 @@ closet=[
   shoes<< "nike"
   shoes.push("vans")
   puts closet
+  #to add something to an array ina specific location use the name of the array. insert.position - which is refrenced by a number,"what you want to add")
+  #ex 
+  #arr.insert(2,8)
+  #tops.insert(2,"T-shirt")
+  # to delete something in a certain position use .dlete_(position you want to delete)
+  #ex:tops.delete_at(1)
+  puts closet
