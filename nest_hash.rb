@@ -5,4 +5,4 @@ closet={
 }
 puts closet["tops"] # this prints out just my tops 
 closet["tops"]<< "blouse"
-closet["tops"].push
+closet["tops"].push(blouse)
