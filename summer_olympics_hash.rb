@@ -14,7 +14,8 @@ def add_a_key_value_pair
     
   }
 end
- olympic_hash.each do |"cities", "years"|
+ olympic_hash.each do |cities, years|
+   puts "The#{years} summer olympics took place in#{cities}"
    
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
