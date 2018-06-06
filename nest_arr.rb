@@ -8,7 +8,7 @@ closet=[
   
   
   tops= ["rain jacket","cardigan","blazer"],
- bottomes= ["jeans","skirt","capris"],
+ bottoms= ["jeans","skirt","capris"],
  shoes= ["sneakers","heels","flats"]
   closet=[tops, bottoms,shoes]
   puts closet
