@@ -4,5 +4,5 @@ closet={
   "shoes"=>["nike","vans","sandals"],
 }
 puts closet["tops"] # this prints out just my tops 
-closet["tops"]<< "blouse"
-closet["tops"].push("blouse")
+ puts closet["tops"]<< "blouse"
+
