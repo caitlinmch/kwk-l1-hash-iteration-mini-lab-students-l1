@@ -5,4 +5,4 @@ closet={
 }
 #puts closet["tops"] # this prints out just my tops 
  puts closet["tops"]<< "blouse"
-
+puts closet.["tops"](4, "tube-top")
