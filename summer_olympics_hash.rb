@@ -27,8 +27,8 @@ def iterate_through_hash
     "Bejing"=>"2008",
     "London"=>"2012"
   }
-  olympic_hash.each do |cities, years|
-    puts "The #{years} summer olympics took place in #{cities}"
+  olympic_hash.each do |cities.upcase, years|
+    puts "The #{years} summer olympics took place in #{cities.upcase}"
     puts ""
   end
 end
