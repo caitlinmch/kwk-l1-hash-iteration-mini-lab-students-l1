@@ -18,6 +18,7 @@ end
    puts "The#{years} summer olympics took place in#{cities}"
    puts ""
  end
+ create_olympics_hash
    
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
