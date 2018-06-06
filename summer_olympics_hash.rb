@@ -12,7 +12,7 @@ def add_a_key_value_pair
     "london"=>"2012"
     
   }
-  puts"#{olympic_hash}
+ olympic_hash
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
 
